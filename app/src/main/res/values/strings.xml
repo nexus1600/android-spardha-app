@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Spardha</string>
+    <string name="not_registered">not registered</string>
+    <string name="registered">register</string>
+    <string name="already_registered">already register</string>
+    <string name="Login">Login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="Next">Next</string>
+    <string name="ATHELETICS">atheletics</string>
+    <string name="atheletics_text">ATHELETICS</string>
+    <string name="BADMINTON">Badminton</string>
+    <string name="text_BADMINTON">BADMINTON</string>
+    <string name="VOLLY_BALL">VOLLYBALL</string>
+    <string name="CRICKET">CRICKET</string>
+    <string name="CHESS">CHESS</string>
+    <string name="CARROM">CARROM</string>
+    <string name="FOOTBALL">FOOTBALL</string>
+    <string name="athletics_text">ATHLETICS</string>
+    <string name="Cricket_MAtchess">CRICKET MATCHES</string>
+    <string name="Cricket_MAtches">CRICKET MATCHES</string>
+    <string name="football_match">FOOTBALL MATCHES</string>
+    <string name="Gallery">GALLERY</string>
+    <string name="Athletics">Athletics is a collection of sporting events that involve competitive running, jumping,
+        throwing, and walking.[1] The most common types of athletics competitions are track and field, road running,
+        cross country running, and race walking
+    </string>
+    <string name="badminton_text">BADMINTON</string>
+    <string name="badminton">Badminton is a racquet sport played using racquets to hit a shuttlecock across a net.
+        Although it may be played with larger teams, the most common forms of the game are \"singles\" and \"doubles\".
+    </string>
+    <string name="carrom">CARROM</string>
+    <string name="about_carrom">Carrom is typically played with powder, and some variations of the game use cues. The
+        most widely played form of \'proper\' Carrom is supported by a world wide set of rules known as The Laws of
+        Carrom, and are available from the International Carrom Federation.
+    </string>
+    <string name="chess">Chess is a two-player strategy board game played on a checkered board with 64 squares arranged
+        in an 8×8 grid. The game is played by millions of people worldwide. Chess is believed to be derived from the
+        Indian game chaturanga some time before the 7th century.
+    </string>
+    <string name="table_tenish">Table tennis, also known as ping-pong, is a sport in which two or four players hit a
+        lightweight ball back and forth across a table using small rackets. The game takes place on a hard table divided
+        by a net.
+    </string>
+    <string name="tannish">TABLE TENNISH</string>
+    <string name="vollyball">Volleyball is a popular team sport in which two teams of six players are separated by a
+        net. Each team tries to score points by grounding a ball on the other team\'s court under organized rules
+    </string>
+    <string name="Register_event">REGISTER EVENT</string>
+    <string name="branch">Branch</string>
+    <string name="name_sports">Sports Name</string>
+</resources>

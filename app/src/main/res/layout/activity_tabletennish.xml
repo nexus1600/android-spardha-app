@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/table_tenish"
+               android:id="@+id/tabletenish_image"/>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tabletenish_image">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:gravity="center"
+        >
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:text="@string/tannish"
+                      android:textStyle="bold"
+                      android:textSize="30dp"
+                      android:textColor="#000000"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/table_tenish"
+                    android:textSize="20dp"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:src="@drawable/table_tenish"/>
+            <Button
+                    android:id="@+id/register_for"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#7FFF00"
+                    android:text="@string/Register_event"
+                    android:layout_margin="10dp"
+                    android:textColor="#800000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

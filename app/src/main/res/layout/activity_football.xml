@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Sports.FootballActivity">
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="250dp"
+               android:src="@drawable/football_ground"
+               android:id="@+id/football_image"/>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/football_image">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:gravity="center"
+        >
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:text="@string/football_match"
+                      android:textStyle="bold"
+                      android:textSize="30dp"
+                      android:textColor="#000000"/>
+            <ImageButton
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/football_timetable"
+            />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

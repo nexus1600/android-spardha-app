@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.spardha">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".RegisterForActivity">
+        </activity>
+        <activity android:name=".Sports.BadmintonActivity">
+        </activity>
+        <activity android:name=".Sports.CarromActivity">
+        </activity>
+        <activity android:name=".Sports.TabletennishActivity">
+        </activity>
+        <activity android:name=".Sports.ChessActivity">
+        </activity>
+        <activity android:name=".Sports.VollyballActivity">
+        </activity>
+        <activity android:name=".Sports.FootballActivity">
+        </activity>
+        <activity android:name=".Sports.AtheleticsActivity">
+        </activity>
+        <activity android:name=".Sports.CricketActivity">
+        </activity>
+        <activity android:name=".SportsActivity">
+        </activity>
+        <activity android:name=".RegisterActivity">
+        </activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>
