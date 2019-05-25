@@ -1,3 +1,5 @@
+# Spardha Sports Event App
+
 # Overview
 ```
 it is a sports event app. at firs student have to register simply just clicking on "new_user",
