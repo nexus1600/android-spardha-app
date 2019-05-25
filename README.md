@@ -1,4 +1,6 @@
 # Spardha Sports Event App
+![icon](https://user-images.githubusercontent.com/42965241/58362221-7bee3d00-7eb2-11e9-87c6-d32b6adfc50b.png)
+
 
 # Overview
 ```
